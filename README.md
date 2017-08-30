@@ -1,1 +1,1 @@
-# Team-JamJar
+# Project Proposal

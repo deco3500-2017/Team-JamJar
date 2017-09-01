@@ -315,7 +315,7 @@ Lisa & Duncan.  The Open Shed team. Retrieved from: https://www.openshed.com.au/
 Sam. (2010). Streetback. Retrieved from: https://www.streetbank.com/
 
 ## Appendix:
-item 1 - User Research Questionnaire ![ques](https://github.com/deco3500-2017/Team-JamJar/blob/master/proposal%20images/Value%20Proposition%20Canvas%20(1).jpg)
+item 1 - <a href = "https://goo.gl/forms/qS1Qo8X5yIHvsFdf2" >User Research Questionnaire </a>
 
 item 2 - persona
 

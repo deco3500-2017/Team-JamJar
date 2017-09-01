@@ -33,13 +33,13 @@
 7. References	
 8. Appendix
 
-
-Designing 
-Jamjar
-Lei Lei Vong      43733239
-Nianqu Sun       43885062
-Yonglin Chen     44232533
-Luke Daniels       42660150
+## Team JamJar
+Name | Student num 
+------------ | -------------
+Lei Lei Vong | 43733239
+Nianqu Sun | 43885062
+Yonglin Chen | 44232533
+Luke Daniels | 42660150
 
 
 ## 1. Introduction

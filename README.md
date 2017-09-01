@@ -127,12 +127,14 @@ ShareTown is an ice-breaker application which aims to help apartment residents k
 #### 2.3.4 Personas
 Based on the target user, team JamJar develops personas for this project so that the team can always design the product in the right direction. (see appendix item 2) 
 
-Using these personas, team JamJar draws the value proposition canvas.
+Using these personas, team JamJar draws the value proposition canvas as shown below (Figure 1).
 
 ![canvas1](https://github.com/deco3500-2017/Team-JamJar/blob/master/proposal%20images/Value%20Proposition%20Canvas%201.jpg)
 ![canvas2](https://github.com/deco3500-2017/Team-JamJar/blob/master/proposal%20images/Value%20Proposition%20Canvas%202.jpg)
 ![canvas3](https://github.com/deco3500-2017/Team-JamJar/blob/master/proposal%20images/Value%20Proposition%20Canvas%203.jpg)
 ![canvas4](https://github.com/deco3500-2017/Team-JamJar/blob/master/proposal%20images/Value%20Proposition%20Canvas%204.jpg)
+
+Figure 1. value proposition cavas
 
 
 
@@ -212,7 +214,7 @@ Each of our team members bring valuable knowledge from previous degrees undertak
 
 
 ### 3.2 The Roles and Responsibilities  
-Followed by the strengths and weaknesses of each team member in the context of the team project, the organisational chart (Fig. 1). shows the lead and secondary roles of members in the project. We as a team have decided that all decisions can be reached quickly amongst four of us, and whilst we may each be in control of certain aspects, we are all involved in all aspects of the design, build and implementation of our project. 
+Followed by the strengths and weaknesses of each team member in the context of the team project, the organisational chart (Fig. 2). shows the lead and secondary roles of members in the project. We as a team have decided that all decisions can be reached quickly amongst four of us, and whilst we may each be in control of certain aspects, we are all involved in all aspects of the design, build and implementation of our project. 
 
 Furthermore, the roles and responsibilities of each team member are arranged clearly with the specific position (Table. 1) . For instance, the responsibilities of integrator are leading the whole project, including to lead the direction of project and to improve the communication between team members; the developer is to lead the design aspects of the project; and the programmer is to lead the programming work of the project. Other aspects of responsibilities that are not mentioned in the table reveal group work, such as building prototype and writing report.  
 
@@ -222,7 +224,7 @@ The possible poor performance and conflicts that our team might meet is the abil
 
 ![o_chart](https://user-images.githubusercontent.com/31529946/29956121-261c0fcc-8f28-11e7-9d8f-511969ba0fb8.jpg)
 
-<span align="center"><i>Figure 1. Organisational chart</i></span>
+<span align="center"><i>Figure 2. Organisational chart</i></span>
 
 ![responsibilites](https://user-images.githubusercontent.com/31529946/29956128-36bb6e5e-8f28-11e7-8f14-0708d5e7a957.jpg)
 

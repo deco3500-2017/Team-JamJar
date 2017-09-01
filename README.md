@@ -129,6 +129,11 @@ Based on the target user, team JamJar develops personas for this project so that
 
 Using these personas, team JamJar draws the value proposition canvas.
 
+![canvas1]("https://github.com/deco3500-2017/Team-JamJar/blob/master/proposal%20images/Value%20Proposition%20Canvas%201.jpg")
+![canvas2]("https://github.com/deco3500-2017/Team-JamJar/blob/master/proposal%20images/Value%20Proposition%20Canvas%202.jpg")
+![canvas3]("https://github.com/deco3500-2017/Team-JamJar/blob/master/proposal%20images/Value%20Proposition%20Canvas%203.jpg")
+![canvas4]("https://github.com/deco3500-2017/Team-JamJar/blob/master/proposal%20images/Value%20Proposition%20Canvas%204.jpg")
+
 
 
 ### 2.4 The difference between ShareTown and other current offerings
@@ -325,8 +330,8 @@ Sam. (2010). Streetback. Retrieved from: https://www.streetbank.com/
 item 1 - <a href = "https://goo.gl/forms/qS1Qo8X5yIHvsFdf2" >User Research Questionnaire </a>
 
 item 2 - persona
-
-
-
-
+![persona1]("https://github.com/deco3500-2017/Team-JamJar/blob/master/proposal%20images/persona%201.png")
+![persona2]("https://github.com/deco3500-2017/Team-JamJar/blob/master/proposal%20images/persona%202.png")
+![persona3]("https://github.com/deco3500-2017/Team-JamJar/blob/master/proposal%20images/persona%203.png")
+![persona4]("https://github.com/deco3500-2017/Team-JamJar/blob/master/proposal%20images/persona%204.png")
 

@@ -271,7 +271,7 @@ Keywords: Active Communities, Information Sharing
 
 
 
-References
+## References
 Research:
 
 Aisha (2017).The recipe for health and happiness in Australia. The Sydney Morning Herald. Retrieved 1 September 2017, from http://www.smh.com.au/lifestyle/life/the-recipe-for-health-and-happiness-in-australia-20150714-gibwxd
@@ -290,7 +290,7 @@ Lisa & Duncan.  The Open Shed team. Retrieved from: https://www.openshed.com.au/
 
 Sam. (2010). Streetback. Retrieved from: https://www.streetbank.com/
 
-Appendix:
+## Appendix:
 item 1 - questionnaire
 
 

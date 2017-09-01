@@ -138,6 +138,8 @@ Using these personas, team JamJar draws the value proposition canvas as shown be
 
 
 
+
+
 ### 2.4 The difference between ShareTown and other current offerings
 We find some existing websites / applications that also focus on the neighbourhood sharing topic like our project ShareTown does. The difference between ShareTown and these current offerings will be given, as well as the improvement of our concept. 
 

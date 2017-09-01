@@ -154,6 +154,12 @@ Openshed is a website that helps people share with their community to access wha
 
 Differences and improvements: the biggest difference between Openshed and ShareTown is that the users can only exchange items by hiring rather than sharing with their neighbours. Everything has its price on the website. Although the renting fee for the items is quite low, we do not think it is the best way to improve the relationship between neighbours. 
 
+#### 4. Popular Social media (Facebook, Twitter, etc)
+
+Some popular social media designed for communities to communicate, such as Facebook or Twitter, by allowing people share their feelings or opinions about their surroundings. However, these social media have many distractive elements and people’s message has the potential to get lost in the many other notifications. It is not a good platform for people to send or receive the potentially important messages. In addition, these social media allow people to share information in public, no matter to the friends, or stranger (sometimes facebook reveals). It could raise the problems of privacy. 
+
+Differences and improvements: ShareTown has potential to solve the problem of important message missing and privacy issues. ShareTown need to authenticate the identities of users when they start using it. People can only share the information to the residents who live in the same apartment. Moreover, the user will only receive the information which is related to their living place. They will not be distracted by other unrelated notifications.
+
 
 ### 2.5 Social & mobile theory
 Our concept applied several areas of social & mobile theory which are from social and mobile lectures:
@@ -285,8 +291,9 @@ Our project is designing a mobile-based application to help people share informa
 For the user testing session, our project might need to entry an apartment and get some feedback from the residents with our prototype. We will communicate with the building manager to ensure he/she understands what our project is about, and permit our team entry the building. The participant information sheet and informed consent will be given to the participant. We might need the recording equipment (camera, voice memos) to record the participant’s behaviors and opinion during the user-testing. 
 
 ### Tags
-Key concepts: Collaboration, Coordination, Awareness, Shared Information Spaces, Groupware Time-Space
-Keywords: Active Communities, Information Sharing
+<p><b>Key concepts</b>: Collaboration, Coordination, Awareness, Shared Information Spaces, Groupware Time-Space</p>
+
+<p><b>Keywords</b>: Active Communities, Information Sharing</p>
 
 
 

@@ -61,7 +61,7 @@ ShareTown is a social mobile application designed to bridge the communication vo
 <li>Resource sharing</li>
 <li>Finding new friends</li>
 <li>Announcement of important dates</li>
-<ul>
+</ul>
 
 ### 1.2 Problem Space
 The relationship between neighbours changed over the centuries. With the increase of settlements from villages to towns and cities, people became more mobile, and the relationship became alienated. Australian statistics show that just only about 30% people in suburbs consider their neighbours friends and only slightly higher in apartment blocks with around 44% considering their neighbours friends (STEVENS, 2015). According to the result of our online survey, more than half (56%) of the participants do not know any of their neighbours by name. A study of almost 20,000 Australians found that one important component of happiness is knowing the neighbours (Aisha, 2017).

@@ -284,7 +284,7 @@ Construction will aim to be completed by the 11th of October.
 ### 5.2 Key deliverables for each phase/Milestones
 Our project is mainly divided into five major anticipated milestones: (1) Project Proposal; (2) Research, Requirement & Interaction Walkthrough; (3) Design, Construction & User Testing; (4) Final Iteration and (5) Final Design Prototype. For each milestone, the table 3 illustrates the steps which are needed to complete, the assignments of each team member and the resources are needed in the project, including end date and status. 
 
-
+![milestone](https://user-images.githubusercontent.com/31529946/29956932-cc6c1a48-8f2d-11e7-9363-229f3afad3af.jpg)
 
 
 

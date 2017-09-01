@@ -134,7 +134,7 @@ Using these personas, team JamJar draws the value proposition canvas as shown be
 ![canvas3](https://github.com/deco3500-2017/Team-JamJar/blob/master/proposal%20images/Value%20Proposition%20Canvas%203.jpg)
 ![canvas4](https://github.com/deco3500-2017/Team-JamJar/blob/master/proposal%20images/Value%20Proposition%20Canvas%204.jpg)
 
-Figure 1. value proposition cavas
+<i>Figure 1. value proposition cavas</i>
 
 
 
@@ -294,7 +294,7 @@ Our project is mainly divided into five major anticipated milestones: (1) Projec
 
 
 
-Table 3. milestone 1-5
+<i>Table 3. milestone 1-5</i>
 
 ### 5.3 Resources 
 Our project is designing a mobile-based application to help people share information and items within the building / community. During the design process of interface design and interaction design, we will use prototyping software to create the mock-up of our application, such as Axure, Sketch and Flinto. For the construction of the application, we will use SourceTree to share our coding (HTML, CSS, JavaScript, etc) in a group. 

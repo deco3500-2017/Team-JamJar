@@ -284,11 +284,15 @@ Construction will aim to be completed by the 11th of October.
 ### 5.2 Key deliverables for each phase/Milestones
 Our project is mainly divided into five major anticipated milestones: (1) Project Proposal; (2) Research, Requirement & Interaction Walkthrough; (3) Design, Construction & User Testing; (4) Final Iteration and (5) Final Design Prototype. For each milestone, the table 3 illustrates the steps which are needed to complete, the assignments of each team member and the resources are needed in the project, including end date and status. 
 
+
+![milestone2](https://user-images.githubusercontent.com/31529946/29956936-d08dee12-8f2d-11e7-84f2-2ffdc64c79f4.jpg)
+
+
 ![milestone](https://user-images.githubusercontent.com/31529946/29956932-cc6c1a48-8f2d-11e7-9363-229f3afad3af.jpg)
 
 
 
-Table x. milestone 1-5
+Table 3. milestone 1-5
 
 ### 5.3 Resources 
 Our project is designing a mobile-based application to help people share information and items within the building / community. During the design process of interface design and interaction design, we will use prototyping software to create the mock-up of our application, such as Axure, Sketch and Flinto. For the construction of the application, we will use SourceTree to share our coding (HTML, CSS, JavaScript, etc) in a group. 

@@ -57,9 +57,11 @@
 We have been presented dozens of great ideas within three specific domains and active community is the one that we decide to work on. We are required to develop a social and mobile technology which should be innovative for the purposes of discovering something about the certain problem space. Resources sharing between neighbours is the topic we are interested in so that we decide to develop a unique application - ShareTown.
 
 ShareTown is a social mobile application designed to bridge the communication void that currently exists between 21st century neighbours. ShareTown is specifically for occupants of apartment buildings and similar structures. Our application will not only act as replacement for the out of date cork message board that currently resides in the lobby, but also as a way in which users can send personalised messages directly to specific residents of their building. Examples of ShareTown uses include but are not limited to:
-·         Resource sharing
-·         Finding new friends
-·         Announcement of important dates
+<ul>
+<li>Resource sharing</li>
+<li>Finding new friends</li>
+<li>Announcement of important dates</li>
+<ul>
 
 ### 1.2 Problem Space
 The relationship between neighbours changed over the centuries. With the increase of settlements from villages to towns and cities, people became more mobile, and the relationship became alienated. Australian statistics show that just only about 30% people in suburbs consider their neighbours friends and only slightly higher in apartment blocks with around 44% considering their neighbours friends (STEVENS, 2015). According to the result of our online survey, more than half (56%) of the participants do not know any of their neighbours by name. A study of almost 20,000 Australians found that one important component of happiness is knowing the neighbours (Aisha, 2017).

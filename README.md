@@ -1,6 +1,13 @@
-<h1 align="center">Project Proposal</h1>
+![sharetown-logo](https://user-images.githubusercontent.com/25241670/29955215-7b4b0072-8f21-11e7-9107-40643d0aad1b.png)
 
-## Table of Contents
+<h1 align="center">Designing an social and mobile application for people to share resources with their neighbours</h1>
+
+<h2 align="center">Proposal Report</h2>
+<h3 align="center">Team Jamjar</h3>
+<h4 align="center"><i>20/08/2017</i></h4>
+
+<br/><br/><br/>
+<h2 align="center">Table of Contents</h2>
 
 
 1. Introduction	
@@ -34,14 +41,16 @@
 7. References	
 8. Appendix
 
-## Team JamJar
-Name | Student num 
------------- | -------------
-Lei Lei Vong | 43733239
-Nianqu Sun | 43885062
-Yonglin Chen | 44232533
-Luke Daniels | 42660150
+<h1 align="center">Designing an social and mobile application for people to share resources with their neighbours</h1>
+<br/><br/>
 
+<h3 align="center">Team JamJar</h3>
+<ul align="center">
+<li> Lei Lei Vong | 43733239</li>
+<li> Nianqu Sun | 43885062</li> 
+<li> Yonglin Chen | 44232533</li> 
+<li> Luke Daniels | 42660150</li> 
+</ul><br/>
 
 ## 1. Introduction
 ### 1.1 Design Brief
@@ -72,49 +81,48 @@ As the name shows, the primary goal of ShareTown is to help people to share info
 
 ### 2.3 Audience
 #### 2.3.1 User Research
-Team Jamjar has conducted a survey to examine if ShareTown solves user’s issue and find out the potential requirements. (see appendix item 1) Due to the limited time, there are just 18 participates involved. From the results, most of them are under 35, so this survey will keep continuing. Still, based on the result of the research, some insights can be found. 
+Our team has conducted a survey to examine if ShareTown solves user’s issue and find out the potential requirements (see appendix item 1). There are 18 responses in our survey. From the results, most of them are under 35, so this survey will keep continuing. Still, based on the result of the research, some insights can be found. 
 
-The relationship between neighbours in an apartment is icy.
-The low frequency of coming across each other is one of the reasons for this insight. According to the survey, few of the participate come across their neighbour more than twice a day. Nearly half of them do not come across their neighbour even once a day. In spite of this, the survey shows that 45% of them know at least one neighbour’s name. It implies that if there is a chance, the conversation between neighbours is possible.
+The relationship between neighbours in an apartment is icy. The low frequency of coming across each other is one of the reasons for this insight. According to the survey, few of the participate come across their neighbour more than twice a day. Nearly half of them do not come across their neighbour even once a day. In spite of this, the survey shows that 45% of them know at least one neighbour’s name. It implies that if there is a chance, the conversation between neighbours is possible.
 
-People are more willing to share items than information with neighbours.
-The result shows that there are more than 66.7% people are willing to share items with neighbours, however, only 50% of them are willing to share information. From the feedback of those who say no for either sharing items or sharing information, the team JamJar finds the primary reason is that they do not know each other. Knowing each other is an important start for the further communication.
+People are more willing to share items than information with neighbours. The result shows that there are more than 66.7% people are willing to share items with neighbours, however, only 50% of them are willing to share information. From the feedback of those who say no for either sharing items or sharing information, our team finds the primary reason is that they do not know each other. Knowing each other is an important start for the further communication.
 
-Apartment residents are somewhat miss the announcement of their building.
-The result of the survey shows that there are only 11% people will never miss any announcement of the apartment. One of the reasons is that they do not check the message board often. Another reason is that they do not check their mail box. Due to the various of reasons, it is highly possible that the apartment resident miss the building announcement. 
+Apartment residents are somewhat miss the announcement of their building. The result of the survey shows that there are only 11% people will never miss any announcement of the apartment. One of the reasons is that they do not check the message board often. Another reason is that they do not check their mail box. Due to the various of reasons, it is highly possible that the apartment resident miss the building announcement. 
 
 Those are the insights of the research. The product will be designed around these aspects. The priority of this product is to allow people to know each other first so that other features can be well implemented. 
+
 #### 2.3.2 Target Audience
 The target user of ShareTown is the apartment-resident who wants / needs to have further communication and interaction with their neighbours.  We sort out the typical groups of people based on their requirements.
  
-Apartment manager
+#### Apartment manager
 Apartment manager wants to post an announcement online so that the residents in that apartment can notice it as soon as possible. Compared with a house, an apartment needs more regular maintaining such as daily public area cleaning, facilities repairing and fire alarm testing. Thus, building manager needs to let people know the date of these activities.
  
-The elderly
-The elderly want to have a product to ask for help to neighbours so that they can solve some small problem. They are one of the typical groups in the apartment. Generally, they are living with their spouse or alone. Because of the age, they may encounter some problems in their daily life such as changing the bulb. Thus, they need a tool to look for help.
+#### The elderly
+The elderly wants to have a product to ask for help to neighbours so that they can solve some small problem. They are one of the typical groups in the apartment. Generally, they are living with their spouse or alone. Because of the age, they may encounter some problems in their daily life such as changing the bulb. Thus, they need a tool to look for help.
  
-Family
+#### Family
 A family wants to have an item-shared platform so that they can exchange or share the items with their neighbours. In general, the space of a unit is far less than the space of a house. The limited room does not allow residents to have too many items. Therefore, they need a platform to share something. Besides, they can also use this platform to seek help. For example, if they forget to buy something in the grocery shopping, they can also ask if there is someone willing to help.
  
-Student
+#### Student
 Students want to know the events or activities so that they can spend their leisure time. Among the groups of the apartment-resident, student is another typical group, especially the international student. They are new to the city and are curious about everything. They want to get the information in their place and quickly get into the circle. As a result, they need a tool to say hi to the neighbours.
  
 These four kinds of people are the target user of ShareTown. Team Jamjar is going to design a product to facilitate the inclusion in each apartment.
+
 #### 2.3.3 Experience
 The purpose of ShareTown is to provide apartment residents with a platform to share items and information so that they could have a chance to deeper understand their neighbours. It is also a platform for apartment manager to post announcements.
 
 In order to satisfy and meet users’ requirement, this application must support the following user experiences:
  
-Simple
+#### Simple
 Due to the various of kinds of target users, it is necessary for the product to be simple. First, the layout should be clear and well-organized. Second, the interactivity should be simple. The hierarchy of the functionality cannot more than three. Besides, there should be a clear navigation to tell users where they are and where they could go next. Third, the interface should be metaphorical. Excellent icons can help user understand the functionality.
  
-Trustworthy
+#### Trustworthy
 Because this product focuses on creating an online community in each apartment. The identity of each user should be real and up to date. Each user should be confirmed by the apartment manager. The real user online community can decrease the rise of security and safety.
 
-Friendly
+#### Friendly
 ShareTown is an ice-breaker application which aims to help apartment residents knowing and understanding their neighbours by resource sharing. Therefore, the experience we want to provide for the users must be friendly. A friendly interface with warm color scheme could create a good mood for the users so that they would be more willing to interact with their neighbours via our product. 
 
-To sum up, being simple, trustworthy and friendly are the core user experience of this product. 
+
 
 #### 2.3.4 Personas
 Based on the target user, team JamJar develops personas for this project so that the team can always design the product in the right direction. (see appendix item 2) 
@@ -149,6 +157,7 @@ Differences and improvements: the biggest difference between Openshed and ShareT
 
 ### 2.5 Social & mobile theory
 Our concept applied several areas of social & mobile theory which are from social and mobile lectures:
+
   
 #### 1. Groupware Time-Space Matrix 
 According to the response of our survey, more than 50% of the people rely the bulletin board to receive message in their apartment. In terms of groupware time-space matrix, bulletin board is an asynchronous interaction, which people read the retrieved or posted messages, and provide comments or feedback in the different time and same place. However, from our result, there are 53% of the people always miss or ignore the information in their apartment's message board. It is because that people cannot receive the message timely (different time) and anywhere (same place). Therefore, our concept want to develop a solution which applied asynchronous distributed interaction: receive up-to-date message anytime and anywhere. 
@@ -158,41 +167,43 @@ Our project aims to improve the communication in neighbourhood community. In oth
 
 The mobility of our concept is not only for people receive and share information more convenient and timely, but also provide different information display based on their location. The message received will be affected by their location, as well as information sharing. It would make people pay more attention on the message which is interested or nearby to them.
 
+
 #### 3. Awareness
 Awareness is one of the important areas that we applied in our project. Awareness makes people know who is around, what is happening and who is talking to them. It affects people share knowledge of what they are doing/what information they choose to share. Supporting people’s social awareness can increase people’s motivation on knowing each other. (Naaman, Boase, & La, 2010). Therefore, our project want to increase people’s social awareness through interacting with our application, by sharing, receiving related information in their neighbourhood. 
 
 #### 4. Collaboration
 Collaboration is a social relationship that enables people to work with others in order to achieve benefit. According to our survey, when we ask for people: if you encounter a problem, would you like to seek help from your neighbors? some of the results showed that they would find building manager or friends because they feel awkward. Through the use of ShareTown, we want to see how people use our application to connect with their neighbours, and then achieve individual’s or group’s goals.  
+  
 
 #### 5. Shared Information Spaces
-Bannon and Bodker (1999) have examined some of the key features of
-shared information spaces to facilitate sharing of information and collaboration in groups of this ilk. Similar to the idea of ‘design space’ articulated by Sharrock and Anderson (1996), shared information space is an analytical conception in which actors create the shared space over time
-by storing a variety of inter-connected ‘documents’ and then explore it by searching for, reading, and managing the information available. I
+Shared information space allows people to store massive inter-connected documents and then enables people to search, read and manage the information in shared space (Sharrock & Anderson, 1996). In our application, we provide a similar shared information space to facilitate sharing of information in a group/ an apartment. 
+
 
 #### 6. Coordination 
 Coordination is working as a group to achieve a common goal. There are three coordination mechanisms that people use to coordinate a group of people act or interact together: verbal and non-verbal communication, schedules, rules, and conventions, and shared external representations. The document of bulletin board is one example of the convention. However, people often fail to follow convention that aren’t rigorously enforced and the building manager feel frustrating of it. In our application, we use technologies to support coordination problems with conventions, by using shared information platform.
+
 
 ## 3. Team
 ### 3.1 Self Analysis
 The strengths and weaknesses of each team member are as follows:
 
-Nianqu: Used to study telecommunication, have basic knowledge on programming (Unity, HTML, CSS, and JS). Now studying Interaction design, good at prototype designing (Sketch, Flinto, Axure), user evaluating, also have limited skills on graphic design (using Adobe Illustrator). Data analysing, video making, and drawing are the main weaknesses of mine. (DECO7350) 
+<b>Nianqu</b>: Used to study telecommunication, have basic knowledge on programming (Unity, HTML, CSS, and JS). Now studying Interaction design, good at prototype designing (Sketch, Flinto, Axure), user evaluating, also have limited skills on graphic design (using Adobe Illustrator). Data analysing, video making, and drawing are the main weaknesses of mine. (DECO7350) 
 
 
-Lei Lei: Studied Psychology, good at designing questionnaire, data collecting, data analysing with statistical software such as SPSS and Excel. Studying Interaction Design currently, good at constructing prototype, but not familiar with programming, such as database, Java, hardware and software engineering. (DECO7350) 
+<b>Lei Lei</b>: Studied Psychology, good at designing questionnaire, data collecting, data analysing with statistical software such as SPSS and Excel. Studying Interaction Design currently, good at constructing prototype, but not familiar with programming, such as database, Java, hardware and software engineering. (DECO7350) 
 
-YongLin: Yonglin’s first degree is industrial design. He is confident in Adobe Photoshop and Illustrator. While doing the master of interaction design, he learnt the basic computer language such as python and HTML. Besides, he is also good at user testing and human computer interaction.(DECO7350)
+<b>YongLin</b>: Yonglin’s first degree is industrial design. He is confident in Adobe Photoshop and Illustrator. While doing the master of interaction design, he learnt the basic computer language such as python and HTML. Besides, he is also good at user testing and human computer interaction.(DECO7350)
 
-Luke: Currently in my 3rd year of a BSc degree. I have experience in Python, php, Java and more recently C/C++. Database knowledge is limited to SQL. When it comes to the front end i have the basic knowledge of HTML, CSS and  JavaScript. (DECO3500)
+<b>Luke</b>: Currently in my 3rd year of a BSc degree. I have experience in Python, php, Java and more recently C/C++. Database knowledge is limited to SQL. When it comes to the front end i have the basic knowledge of HTML, CSS and  JavaScript. (DECO3500)
 
 
 Each of our team members bring valuable knowledge from previous degrees undertaken, however we are all looking to learn during this subject. 
 
 
 ### 3.2 The Roles and Responsibilities  
-Followed by the strengths and weaknesses of each team member in the context of the team project, the organisational chart (Fig. x). shows the lead and secondary roles of members in the project. We as a team have decided that all decisions can be reached quickly amongst four of us, and whilst we may each be in control of certain aspects, we are all involved in all aspects of the design, build and implementation of our project. 
+Followed by the strengths and weaknesses of each team member in the context of the team project, the organisational chart (Fig. 1). shows the lead and secondary roles of members in the project. We as a team have decided that all decisions can be reached quickly amongst four of us, and whilst we may each be in control of certain aspects, we are all involved in all aspects of the design, build and implementation of our project. 
 
-Furthermore, the roles and responsibilities of each team member are arranged clearly with the specific position (Table. x) . For instance, the responsibilities of integrator are leading the whole project, including to lead the direction of project and to improve the communication between team members; the developer is to lead the design aspects of the project; and the programmer is to lead the programming work of the project. Other aspects of responsibilities that are not mentioned in the table reveal group work, such as building prototype and writing report.  
+Furthermore, the roles and responsibilities of each team member are arranged clearly with the specific position (Table. 1) . For instance, the responsibilities of integrator are leading the whole project, including to lead the direction of project and to improve the communication between team members; the developer is to lead the design aspects of the project; and the programmer is to lead the programming work of the project. Other aspects of responsibilities that are not mentioned in the table reveal group work, such as building prototype and writing report.  
 
 When our team need to make the decision about the process of the project, the team leader will generate and lead the discussion. Each team member will have the opportunities to express his/her opinions in a team and make the decision together. If the decision cannot be determined, we will ask tutors for suggestions and vote for the final result. 
 
@@ -201,31 +212,35 @@ The possible poor performance and conflicts that our team might meet is the abil
 
 
 
-Figure X. Organisational chart
+Figure 1. Organisational chart
 
 
-Table 5. The Role and Responsibility of each team member
+Table 1. The Role and Responsibility of each team member
 
 
 ## 4. Communications
 ### 4.1 Available Timetable
-Based on the available time from each team member, we generate a available timetable (Table.X) that shows the time distribution of expected workload per team member per week. Apart from our required session (practical, workshop and lecture), we are able to spend more time for extra meeting on Thursday and Friday. Moreover, we will be working on our own responsibilities on Thursday and Friday also, and it might be changed based on the available time from team members. 
+Based on the available time from each team member, we generate a available timetable (Table.2) that shows the time distribution of expected workload per team member per week. Apart from our required session (practical, workshop and lecture), we are able to spend more time for extra meeting on Thursday and Friday. Moreover, we will be working on our own responsibilities on Thursday and Friday also, and it might be changed based on the available time from team members. 
 
 
-Table X. Available Timetable
+
+Table 2. Available Timetable
 
 ### 4.2 Social platform and File Storage
 Communications will take place over google hangouts, facebook, and during both practicals and workshops. This combination allows for a decent amount of face to face communication while still being able to make contact on things that are trivial and can be resolved on facebook. File storage will be held on a Google drive and Github our naming conventions will consist of name of the file which if 2 or more words will be camel humped and finished with a version number.
+
 
 ## 5. A plan for completion of the project
 ### 5.1 Project phases
 #### 5.1.1 Research
 In order to understand why neighbourhood relationship become alienated, we want to find out more information about neighbour relationship in the literature reviews or research paper:
 
-neighbours inclusion
-neighbourhood social interaction
-improve neighbours relationship 
-neighbour in the apartment community 
+<ul>
+<li>neighbours inclusion</li>
+<li>neighbourhood social interaction</li>
+<li>improve neighbours relationship </li>
+<li>neighbour in the apartment community </li>
+</ul>
 
 In addition, our project will investigate the existed and similar application which is designed for the people who live in an apartment, or using social and mobile solution to solve the problem of neighbourhood inclusion.
 
@@ -238,10 +253,12 @@ Our aim of requirements gathering is that we want to know the user’s needs. Wh
 
 Requirements will aim to be completed by the 14th of September. 
 
+
 #### 5.1.3 Design
 Our project is designing a mobile-based application to help people share information and items within the building / community. During the design process of interface design and interaction design, we shall use Adobe Illustrator to create the basic layouts of each page, and will use prototyping software to create the mock-up of our application, such as Axure, Sketch and Flinto. 
 
 Design will aim to be completed by the 11th of October. 
+
 
 #### 5.1.4 Construction
 Initially we shall use HTML/CSS to create a basic pages layout. This will help us with a base on which to build the code from. After this consideration we will need to use Javascript to create the information announcement as our main functionality. This involves us looking at how to display information up-to-date. The database of user account requires the use of PHP/MySQL, and development of the pattern of data view controller.
@@ -254,7 +271,8 @@ Construction will aim to be completed by the 11th of October.
 
 
 ### 5.2 Key deliverables for each phase/Milestones
-Our project is mainly divided into five major anticipated milestones: (1) Project Proposal; (2) Research, Requirement & Interaction Walkthrough; (3) Design, Construction & User Testing; (4) Final Iteration and (5) Final Design Prototype. For each milestone, the table X illustrates the steps which are needed to complete, the assignments of each team member and the resources are needed in the project, including end date and status. 
+Our project is mainly divided into five major anticipated milestones: (1) Project Proposal; (2) Research, Requirement & Interaction Walkthrough; (3) Design, Construction & User Testing; (4) Final Iteration and (5) Final Design Prototype. For each milestone, the table 3 illustrates the steps which are needed to complete, the assignments of each team member and the resources are needed in the project, including end date and status. 
+
 
 
 
@@ -266,25 +284,30 @@ Our project is designing a mobile-based application to help people share informa
   
 For the user testing session, our project might need to entry an apartment and get some feedback from the residents with our prototype. We will communicate with the building manager to ensure he/she understands what our project is about, and permit our team entry the building. The participant information sheet and informed consent will be given to the participant. We might need the recording equipment (camera, voice memos) to record the participant’s behaviors and opinion during the user-testing. 
 
-Tags
+### Tags
 Key concepts: Collaboration, Coordination, Awareness, Shared Information Spaces, Groupware Time-Space
 Keywords: Active Communities, Information Sharing
 
 
 
+
 ## References
-Research:
+
+<b>Research</b>:
 
 Aisha (2017).The recipe for health and happiness in Australia. The Sydney Morning Herald. Retrieved 1 September 2017, from http://www.smh.com.au/lifestyle/life/the-recipe-for-health-and-happiness-in-australia-20150714-gibwxd
 
 Naaman, M., Boase, J., & Lai, C. H. (2010, February). Is it really about me?: message content in social awareness streams. In Proceedings of the 2010 ACM conference on Computer supported cooperative work (pp. 189-192). ACM.
 
-STEVENS, A. (2015). Why don’t we know our neighbours anymore?. Domain. Retrieved 1 September 2017, from https://www.domain.com.au/news/why-dont-we-know-our-neighbours-anymore-20150727-gijjkx/
+Sharrock, W, and Anderson, B.(1996). ‘Organizational Innovation and the Articulation of the Design Space’, in T.P. Moran and J.M.Carroll (eds.): Design Rationale : Concepts, Techniques, and Use, Lawrence Erlbaum, Mahwah, NJ, pp. 429-451.
+
+Stevens, A. (2015). Why don’t we know our neighbours anymore?. Domain. Retrieved 1 September 2017, from https://www.domain.com.au/news/why-dont-we-know-our-neighbours-anymore-20150727-gijjkx/
 
 
 
 
-Website:
+
+<b>Website</b>:
 Bram, Danny & Joszi. Peerby. Retrieved from: https://www.peerby.com/ 
 
 Lisa & Duncan.  The Open Shed team. Retrieved from: https://www.openshed.com.au/

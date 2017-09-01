@@ -45,12 +45,13 @@
 <br/><br/>
 
 <h3 align="center">Team JamJar</h3>
-<ul align="center">
-<li> Lei Lei Vong | 43733239</li>
-<li> Nianqu Sun | 43885062</li> 
-<li> Yonglin Chen | 44232533</li> 
-<li> Luke Daniels | 42660150</li> 
-</ul><br/>
+<p align="center">
+Lei Lei Vong | 43733239<br/>
+Nianqu Sun | 43885062<br/> 
+Yonglin Chen | 44232533<br/> 
+Luke Daniels | 42660150<br/> 
+</p>
+<br/>
 
 ## 1. Introduction
 ### 1.1 Design Brief

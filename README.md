@@ -1,10 +1,11 @@
-# Project Proposal
+<h1 align="center">Project Proposal</h1>
 
 ## Table of Contents
 
+
 1. Introduction	
-   * 1.1 Design Brief	
-   * 1.2 Problem Space	
+   * 1.1 Design Brief
+   * 1.2 Problem Space
 2. Concept	
    * 2.1 Idea	
    * 2.2 Project aims	

@@ -3,35 +3,35 @@
 ## Table of Contents
 
 1. Introduction	
-   1.1 Design Brief	
-   1.2 Problem Space	
+   * 1.1 Design Brief	
+   * 1.2 Problem Space	
 2. Concept	
-   2.1 Idea	
-   2.2 Project aims	
-   2.3 Audience	
-       2.3.1 User Research	
-       2.3.2 Target Audience	
-       2.3.3 Experience	
-       2.3.4 Personas	
-2.4 The difference between ShareTown and other current offerings	
-2.5 Social & mobile theory	
+   * 2.1 Idea	
+   * 2.2 Project aims	
+   * 2.3 Audience	
+       * 2.3.1 User Research	
+       * 2.3.2 Target Audience	
+       * 2.3.3 Experience	
+       * 2.3.4 Personas	
+   * 2.4 The difference between ShareTown and other current offerings	
+   * 2.5 Social & mobile theory	
 3. Team	
-3.1 Self Analysis	
-3.2 The Roles and Responsibilities	
+   * 3.1 Self Analysis	
+   * 3.2 The Roles and Responsibilities	
 4. Communications	
-4.1 Available Timetable	
-4.2 Social platform and File Storage	
+   * 4.1 Available Timetable	
+   * 4.2 Social platform and File Storage	
 5. A plan for completion of the project	
-5.1 Project phases	
-5.1.1 Research	
-5.1.2 Requirements	
-5.1.3 Design	
-5.1.4 Construction	
-5.2 Key deliverables for each phase/Milestones	
-5.3 Resources	
-Tags	
-References	
-Appendix
+   * 5.1 Project phases	
+      * 5.1.1 Research	
+      * 5.1.2 Requirements	
+      * 5.1.3 Design	
+      * 5.1.4 Construction	
+   * 5.2 Key deliverables for each phase/Milestones	
+   * 5.3 Resources	
+6. Tags	
+7. References	
+8. Appendix
 
 
 Designing 

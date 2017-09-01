@@ -40,7 +40,7 @@
 6. Tags	
 7. References	
 8. Appendix
-
+<br><br><br>
 <h1 align="center">Designing an social and mobile application for people to share resources with their neighbours</h1>
 <br/><br/>
 
@@ -209,22 +209,22 @@ When our team need to make the decision about the process of the project, the te
 
 The possible poor performance and conflicts that our team might meet is the ability and attitude of team members. If the team member is not familiar with the missions that he/she is required to do, other team members will help him/her to figure out the problem. However, if the team member has bad attitude of the work and communication, our team will talk to course coordinator and find out the solution.
 
+![o_chart](https://user-images.githubusercontent.com/31529946/29956121-261c0fcc-8f28-11e7-9d8f-511969ba0fb8.jpg)
 
+<span align="center"><i>Figure 1. Organisational chart</i></span>
 
+![responsibilites](https://user-images.githubusercontent.com/31529946/29956128-36bb6e5e-8f28-11e7-8f14-0708d5e7a957.jpg)
 
-Figure 1. Organisational chart
-
-
-Table 1. The Role and Responsibility of each team member
+<i>Table 1. The Role and Responsibility of each team member</i>
 
 
 ## 4. Communications
 ### 4.1 Available Timetable
 Based on the available time from each team member, we generate a available timetable (Table.2) that shows the time distribution of expected workload per team member per week. Apart from our required session (practical, workshop and lecture), we are able to spend more time for extra meeting on Thursday and Friday. Moreover, we will be working on our own responsibilities on Thursday and Friday also, and it might be changed based on the available time from team members. 
 
+![timetable](https://user-images.githubusercontent.com/31529946/29956105-10de421a-8f28-11e7-9e04-d377ecd79497.jpg)
 
-
-Table 2. Available Timetable
+<span align="center"><i>Table 2. Available Timetable</i></span>
 
 ### 4.2 Social platform and File Storage
 Communications will take place over google hangouts, facebook, and during both practicals and workshops. This combination allows for a decent amount of face to face communication while still being able to make contact on things that are trivial and can be resolved on facebook. File storage will be held on a Google drive and Github our naming conventions will consist of name of the file which if 2 or more words will be camel humped and finished with a version number.

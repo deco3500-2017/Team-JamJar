@@ -1,0 +1,59 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8e9a7;
+}
+
+.menubar {
+	text-align: center;
+	color: #d8d8d8;
+}
+
+.menubar:hover{
+	color: #9deb95;
+}
+
+.header {
+	position: fixed;
+    top: 0;
+    width: 100%;
+	background-color: #f8e9a7;
+	text-align: center;
+	vertical-align: middle;
+	z-index: 999999;
+}
+
+a {
+	text-decoration: none;
+	color: #d8d8d8;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #9deb95;
+}
+
+.menuactive {
+	color: #9deb95;
+}
+
+.title {
+	font-size: 64px;
+}
+
+.outbox {
+	background-color: #d6f1ff;
+}
+
+.innerbox {
+	background-color: #eef9ff;
+}
+
+.time {
+	text-align: right;
+}
+
+card {
+	border:0;
+}

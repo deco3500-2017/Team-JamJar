@@ -42,14 +42,46 @@ a:hover {
 	font-size: 64px;
 }
 
-.outbox {
-	background-color: #d6f1ff;
-}
 
-.innerbox {
-	background-color: #eef9ff;
-}
+/* card colours */
 
+	/*blue*/
+	.outboxblue {
+		background-color: #d6f1ff;
+	}
+
+	.innerboxblue {
+		background-color: #eef9ff;
+	}
+
+	/*orange*/
+	.outboxorange {
+		background-color: #f9e7c2;
+	}
+
+	.innerboxorange {
+		background-color: #fcf6e8;
+	}
+
+	/*green*/
+	.outboxgreen {
+		background-color: #d5f9c2;
+	}
+
+	.innerboxgreen {
+		background-color: #effce8;
+	}
+
+	/*red*/
+	.outboxred {
+		background-color: #f9c2c2;
+	}
+
+	.innerboxred {
+		background-color: #fce8e8;
+	}
+
+/* end card colours */
 .time {
 	text-align: right;
 }
@@ -85,9 +117,10 @@ card {
 			position: relative;
 		}
 
-#msform fieldset {
-	position: absolute;
-}
+		#msform fieldset {
+			position: absolute;
+		}
+
 		/*Hide all except first fieldset*/
 		#msform fieldset:not(:first-of-type) {
 			display: none;

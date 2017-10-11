@@ -20,6 +20,8 @@ $results[] = $userRow["message"];
 
 $results[] = $userRow["time"];
 
+$results[] = $userRow["urgency"];
+
 
 }
 $conn->close();
@@ -82,7 +84,7 @@ $conn->close();
 		<!-- content here -->
 		<div class="container-fluid content">
 
-			<div class="card m-5 outbox rounded" style=<?php echo "background-color:#D6F2FE;"?>>
+			<div class="card m-5 outbox rounded" style=<?php echo  $results[3]?>>
 				<div class="row">
 					<div class="col-2 ml-5 mt-3">
 						<figure class="figure">
@@ -107,44 +109,44 @@ $conn->close();
 			<!-- The Sticky Top Notification will Be Shown Above -->
 			<div class="dropdown-divider"></div>
 
-			<div class="card m-5 outbox rounded" style=<?php echo "background-color:#D6F2FE;"?>>
+			<div class="card m-5 outbox rounded" style=<?php echo  $results[7]?>>
 				<div class="row">
 					<div class="col-2 ml-5 mt-3">
 						<figure class="figure">
   						<img src="images/test.jpg" class="figure-img img-fluid rounded-circle" alt="pic" width="100px">
-  						<figcaption class="figure-caption"><?php echo $results[3]?></figcaption>
+  						<figcaption class="figure-caption"><?php echo $results[4]?></figcaption>
 						</figure>
 					</div>
 					<div class="col-8 mt-5 innerbox rounded">
 						<h4>Notification: </h4>
-						<p><?php echo $results[4]?></p>
+						<p><?php echo $results[5]?></p>
 
 					</div>
 				</div>
 				<div class="row justify-content-end">
 					<div class="col-4 time mr-2">
-						<?php echo $results[5]?>
+						<?php echo $results[6]?>
 					</div>
 				</div>
 			</div>
 
-			<div class="card m-5 outbox rounded" style=<?php echo "background-color:#F8DDD2;"?>>
+			<div class="card m-5 outbox rounded" style=<?php echo $results[11]?>>
 				<div class="row">
 					<div class="col-2 ml-5 mt-3">
 						<figure class="figure">
   						<img src="images/test.jpg" class="figure-img img-fluid rounded-circle" alt="pic" width="100px">
-  						<figcaption class="figure-caption"><?php echo $results[6]?></figcaption>
+  						<figcaption class="figure-caption"><?php echo $results[8]?></figcaption>
 						</figure>
 					</div>
 					<div class="col-8 mt-5 innerbox rounded">
 						<h4>Notification: </h4>
-						<p><?php echo $results[7]?></p>
+						<p><?php echo $results[9]?></p>
 
 					</div>
 				</div>
 				<div class="row justify-content-end">
 					<div class="col-4 time mr-2">
-						<?php echo $results[8]?>
+						<?php echo $results[10]?>
 					</div>
 				</div>
 			</div>

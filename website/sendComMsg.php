@@ -10,9 +10,12 @@ if (!isset($_SESSION['userSession'])) {
 $query1 = $conn->query("SELECT * FROM users WHERE userId=".$_SESSION['userSession']);
 $userRow=$query1->fetch_array();
 if(isset($_POST["submit"])){
-$uID = $_SESSION['userSession'];
-$message = $_POST["message"];
-$urgency = $_POST["urgency"];
+	$uID = $_SESSION['userSession'];
+	$message = $_POST["message"];
+	$urgency = "background-color:".$_POST["urgency"].";";
+	echo $urgency;
+	echo $message;
+	echo $uID;
 
 $query = $conn->prepare("INSERT INTO comBoard3500(userID, message, urgency) VALUES(?,?,?)");
   $query->bind_param('sss', $uID, $message, $urgency);  
@@ -21,9 +24,8 @@ $query = $conn->prepare("INSERT INTO comBoard3500(userID, message, urgency) VALU
       <span class='glyphicon glyphicon-info-sign'></span> &nbsp; successfully registered !
      </div>";
   }else {
-   $msg = "<div class='alert alert-danger'>
-      <span class='glyphicon glyphicon-info-sign'></span> &nbsp; error while registering !
-     </div>";
+	
+    echo("Error description: " . mysqli_error($conn));
   }
 }
 
@@ -44,7 +46,12 @@ $conn->close();
 
 <form method ="post">
   message: <input type="text" name="message"><br>
-  urgency 1-5: <input type="text" name="urgency"><br>
+  <select name = "urgency">
+  <option value="#ffc299">1</option>
+  <option value="#ffff80">2</option>
+  <option value="#99ff99">3</option>
+  <option value="#F8DDD2">4</option>
+  </select>
   <button type="submit" class="btn btn-default" name="submit">
       <span class="glyphicon glyphicon-log-in"></span> &nbsp; send msg
   </button>     

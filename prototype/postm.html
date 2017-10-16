@@ -50,13 +50,12 @@
 			<div class="container-fluid">
 				<div class="row justify-content-center">
 					<div class="col-2">
-
+					<a href="board.html"><i class="material-icons md-96">keyboard_arrow_left</i></a>
 					</div>
 					<div class="col col-8">
-						<p class="title">Board</p>
+						<p class="title">New Post</p>
 					</div>
 					<div class="col-2">
-						<input type="button" name="post" value="Post" class="btn btn-info btn-lg postmbtn"/>
 					</div>
 				</div>
 			</div>
@@ -65,73 +64,41 @@
 		<!-- content here -->
 		<div class="container-fluid content">
 
-			<div class="card m-5 outboxblue rounded">
-				<div class="row">
-					<div class="col-2 ml-5 mt-5">
-						<figure class="figure">
-  						<img src="images/test.jpg" class="figure-img img-fluid rounded-circle" alt="pic" width="100px">
-  						<figcaption class="figure-caption cardfont">name</figcaption>
-						</figure>
+			<form class="message">
+				<div class="row mx-3 my-5 justify-content-center">
+					<div class="col-8 my-5">
+						<h1 class="my-3">Description</h1>
+						<textarea rows="7" maxlength="140" placeholder="140 characters limited"></textarea>
 					</div>
-					<div class="col-8 mt-5 innerboxblue rounded cardfont">
-						<h4>Notification: </h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque interdum rutrum sodales. Nullam mattis fermentum libero, non volutpat.</p>
-					</div>
-				</div>
-				<div class="row justify-content-end">
-					<div class="col-4 time mr-2">
-						5 mins
-					</div>
-				</div>
-			</div>
 
-
-			<!-- The Sticky Top Notification will Be Shown Above -->
-			<div class="dropdown-divider"></div>
-
-			<div class="card m-5 outboxgreen rounded">
-				<div class="row">
-					<div class="col-2 ml-5 mt-5">
-						<figure class="figure">
-  						<img src="images/test.jpg" class="figure-img img-fluid rounded-circle" alt="pic" width="100px">
-  						<figcaption class="figure-caption cardfont">name</figcaption>
-						</figure>
+					<div class="col-8 my-5">
+						<h1 class="my-3">Sort</h1>
+						<div class="input-group">
+							<select>
+								<option selected>choose...</option>
+								<option value="1">Maintaining</option>
+								<option value="2">Letters</option>
+								<option value="3">Discount nearby</option>
+								<option value="4">Missing items</option>
+								<option value="5">Others</option>
+							</select>
+						</div>
 					</div>
-					<div class="col-8 mt-5 innerboxgreen rounded cardfont">
-						<h4>Notification: </h4>
-						<p>hahaha</p>
 
+					<div class="col-8 my-5">
+						<h1 class="my-3">Urgency</h1>
+						<div class="input-group">
+							<select>
+								<option selected>choose...</option>
+								<option value="6">High</option>
+								<option value="7">Normal</option>
+								<option value="8">Low</option>
+							</select>
+						</div>
 					</div>
-				</div>
-				<div class="row justify-content-end">
-					<div class="col-4 time mr-2">
-						5 mins
-					</div>
-				</div>
-			</div>
 
-			<div class="card m-5 outboxred rounded">
-				<div class="row">
-					<div class="col-2 ml-5 mt-5">
-						<figure class="figure">
-  						<img src="images/test.jpg" class="figure-img img-fluid rounded-circle" alt="pic" width="100px">
-  						<figcaption class="figure-caption cardfont">name</figcaption>
-						</figure>
-					</div>
-					<div class="col-8 mt-5 innerboxred rounded cardfont">
-						<h4>Notification: </h4>
-						<p>hahaha</p>
-
-					</div>
-				</div>
-				<div class="row justify-content-end">
-					<div class="col-4 time mr-2">
-						5 mins
-					</div>
-				</div>
-			</div>
-
-
+				</div>	
+			</form>
 
 		</div>
 
@@ -139,6 +106,7 @@
 		<footer class="footer">
 			<div class="container-fluid">
 				<div class="row">
+
 
 					<div class="col-3 border menubar">
 						<a href="board.html">

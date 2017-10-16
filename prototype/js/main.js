@@ -44,6 +44,11 @@ $(document).ready(function(){
     	//console.log("click");
         window.location.href = "index.html";
     });
+
+    $("div#card").on("click",function(){
+    	$(this).next("div#detail").slideToggle();
+	});
+
 	/* 
 	reference: http://thecodeplayer.com/walkthrough/jquery-multi-step-form-with-progress-bar 
 	*/

@@ -1,4 +1,4 @@
-  All the stuff here is HTML, CSS, and JavaScript with some images and icon materials.
+  All stuff here is HTML, CSS, and JavaScript with some images and icon materials.
 
   Since this application is purely designed for the mobile device, we strongly recommend you to browse all of these files in our website on your mobile device. Or you can turn on the inspect and click the toggle device toolbar icon in Chrome to view our website, otherwise, there will be some style bugs.
 

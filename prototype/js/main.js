@@ -125,6 +125,8 @@ $(document).ready(function(){
 	    });
     });
 
+
+/*	use croppie to crop image
 	$uploadCrop = $('.picitem').croppie({
 	    enableExif: true,
 	    viewport: {
@@ -164,6 +166,7 @@ $(document).ready(function(){
 	$("#imgInp").change(function(){
 	    readURL(this);
 	});
+*/
 
  /* run camera
    	// reference https://davidwalsh.name/browser-camera

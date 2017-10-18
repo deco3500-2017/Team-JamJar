@@ -47,7 +47,7 @@ We also ran an observation session in one apartment to see how many people actua
 ### 1.3 Design
 During the last two weeks, we have made a sketch of the layout, a paper prototype, and a draft digital prototype of our application ShareTown. We also ran a paper prototype testing session to collect feedback from the participants (Figure 1).
 
-![figure1](https://github.com/deco3500-2017/Team-JamJar/blob/master/figure1.png)
+![figure1](https://github.com/deco3500-2017/Team-JamJar/blob/master/Process%20Documentation%20week%208/figure1.png)
 <i>Figure.1 User testing session</i>
 <br/>
 
@@ -66,10 +66,10 @@ In this document, we will discuss our current work and re-plan future milestones
 ### 2.1 Vincent
 I am mainly responsible for the designing part in our project. In the last two weeks, I first made an initial sketch and structure of the application in terms of the requirements of the project and the needs of the users (Figure 3,4). Then, I made a mockup of our application ShareTown, including the interfaces, icons, forms, and some icons, using Illustrator, Sketch, and Flinto. 
 
-![figure3](https://github.com/deco3500-2017/Team-JamJar/blob/master/figure3.png)
+![figure3](https://github.com/deco3500-2017/Team-JamJar/blob/master/Process%20Documentation%20week%208/figure3.png)
 <i>Figure 3. the initial sketch of ShareTown APP</i>
 
-![figure4](https://github.com/deco3500-2017/Team-JamJar/blob/master/figure4.png)
+![figure4](https://github.com/deco3500-2017/Team-JamJar/blob/master/Process%20Documentation%20week%208/figure4.png)
 <i>Figure 4. the initial structure of ShareTown APP</i>
 
 In the next two weeks, I will keep refining the digital prototype of our application, including the basic functions, navigation, the interaction between pages, as well as the design of the interface and icons. Also, we will run at least one testing session to collect user feedback on our digital prototype. 
@@ -80,7 +80,7 @@ In the week 7-8, I took part in all design process of our project, especially re
 #### Requirement gathering
 In order to see neighbour relationship and whether they will see the information on the notice board, I posted a piece of paper on the notice board in the lobby one day and ask how would they describe their relationship with their neighbours (Figure 5). The results showed that there are not many people notice the document (only two responses).
 
-![figure5](https://github.com/deco3500-2017/Team-JamJar/blob/master/figure5.png)
+![figure5](https://github.com/deco3500-2017/Team-JamJar/blob/master/Process%20Documentation%20week%208/figure5.png)
 <i>Figure 5. the question sheet and the apartment’s lobby</i>
 
 #### User testing 

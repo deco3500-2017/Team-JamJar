@@ -4,7 +4,7 @@
 
 <h2 align="center">Week 10 Stand up</h2>
 <h3 align="center">Team Jamjar</h3>
-<h4 align="center"><i>16/09/2017</i></h4>
+<h4 align="center"><i>05/10/2017</i></h4>
 
 <br/><br/><br/>
 <h2 align="center">Table of Contents</h2>

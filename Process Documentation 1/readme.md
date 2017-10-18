@@ -2,7 +2,7 @@
 
 <h1 align="center">Process Documentation</h1>
 
-<h2 align="center">Week 8 Stand up</h2>
+<h2 align="center">Week 10 Stand up</h2>
 <h3 align="center">Team Jamjar</h3>
 <h4 align="center"><i>16/09/2017</i></h4>
 
@@ -21,7 +21,7 @@
    * 2.4 Luke	
 3. Future plan	
 <br><br><br>
-<h1 align="center">Process Documentation (Week 8)</h1>
+<h1 align="center">Process Documentation (Week 10)</h1>
 <br/><br/>
 
 <h3 align="center">Team JamJar</h3>

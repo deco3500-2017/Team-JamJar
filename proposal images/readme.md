@@ -1,1 +1,1 @@
-# This folder is to reposit images for proposal
+# This folder is to reposit images of project proposal

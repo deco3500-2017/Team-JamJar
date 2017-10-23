@@ -46,7 +46,6 @@ $conn->close();
 		<!-- https://github.com/Foliotek/Croppie -->
 		<link rel="stylesheet" type="text/css" href="css/croppie.css" />
 
-
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
 		<!-- Javascript -->
@@ -66,7 +65,7 @@ $conn->close();
 		<script src="js/croppie.min.js"></script>
 
 		<script type="text/javascript" src="js/main.js"></script>
-
+		
 	</head>
 	<body>
 		<!-- header here -->
@@ -79,12 +78,10 @@ $conn->close();
 					<div class="col col-8">
 						<p class="title">Board</p>
 					</div>
-					<form action = 'postm.php'>
+		
 					<div class="col-2">
-						<input type="submit" name="post" value="Post" class="btn btn-info btn-lg postmbtn"/>
+						<a href="postm.php" class="btn btn-info btn-lg postmbtn">Post</a>
 					</div>
-					</form>
-					
 				</div>
 			</div>
 		</header>
@@ -98,19 +95,19 @@ $conn->close();
 					if($userRowA['urgency'] == 'background-color: #d6f1ff;'){ $colorA = 'background-color: #eef9ff;';}
 					echo "<div class='card m-5 outbox rounded' style ='".$userRowA['urgency']."'>
 						<div class='row'>
-							<div class='col-2 ml-5 mt-5' style ='".$colorA."'>
+							<div class='col-2 ml-5 mt-5'>
 								<figure class='figure'>
 		  						<img src='images/test.jpg' class='figure-img img-fluid rounded-circle' alt='pic' width='100px'>
 		  						<figcaption class='figure-caption cardfont'>".$userRowA['userName']."</figcaption>
 								</figure>
 							</div>
-							<div class='col-8 mt-5 innerbox rounded cardfont' tyle ='".$colorA."'>
+							<div class='col-8 mt-5 innerbox rounded cardfont' style ='".$colorA."'>
 								<h4>".$userRowA['sort'].": </h4>
 								<p>".$userRowA['message']."</p>
 							</div>
 						</div>
 						<div class='row justify-content-end'>
-							<div class='col-4 time mr-2'>
+							<div class='col-12 time mr-2' style='text-align: right;'>
 								".$userRowA['time']."
 							</div>
 						</div>
@@ -118,7 +115,7 @@ $conn->close();
 				}
 		?>
 
-			<!-- The Sticky Top Notification will Be Shown Above -->
+			<!-- The Top Sticky Notification will Be Shown Above -->
 			<div class="dropdown-divider"></div>
 			
 			<?php 
@@ -128,7 +125,7 @@ $conn->close();
 					if($userRow['urgency'] == 'background-color: #d6f1ff;'){ $color = 'background-color: #eef9ff;';}					
 					echo "<div class='card m-5 outbox rounded' style ='".$userRow['urgency']."'>
 						<div class='row'>
-							<div class='col-2 ml-5 mt-5' style ='".$color."'>
+							<div class='col-2 ml-5 mt-5'>
 								<figure class='figure'>
 								<img src='images/test.jpg' class='figure-img img-fluid rounded-circle' alt='pic' width='100px'>
 								<figcaption class='figure-caption cardfont'>".$userRow['userName']."</figcaption>
@@ -140,7 +137,7 @@ $conn->close();
 							</div>
 						</div>
 						<div class='row justify-content-end'>
-							<div class='col-4 time mr-2'>
+							<div class='col-12 time mr-2' style='text-align: right;'>
 								".$userRow['time']."
 							</div>
 						</div>
@@ -164,7 +161,7 @@ $conn->close();
 					<div class="col-3 border menubar">
 						<a href="transaction.php">
 							<i class="material-icons md-96">loop</i>
-							<br><span>Transaction</span>
+							<br><span>Exchange</span>
 						</a>	
 					</div>
 					<div class="col-3 border menubar">

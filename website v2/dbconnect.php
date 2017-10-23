@@ -1,8 +1,8 @@
 <?php
  ini_set('display_errors', 1);
-$servername = 'localhost';
+$servername = '127.0.0.1';
 $username =  'root';
-$password = '3b033ae4015c5b8e';
+$password = '020612';
 $DBNAME = 'iListen';
  
  $conn = mysqli_connect($servername, $username, $password, $DBNAME);

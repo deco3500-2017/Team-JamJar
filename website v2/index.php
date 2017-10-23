@@ -41,6 +41,9 @@ $conn->close();
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" type="text/css" href="css/material_icons.css">
 		<!-- example: <i class="material-icons md-48">name</i> -->
+		
+		<!-- https://github.com/Foliotek/Croppie -->
+		<link rel="stylesheet" type="text/css" href="css/croppie.css" />
 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -53,6 +56,12 @@ $conn->close();
 
 		<!-- bootstrap https://getbootstrap.com/ -->
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		
+		<!-- http://gsgd.co.uk/sandbox/jquery/easing/ -->
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		
+		<!-- https://github.com/Foliotek/Croppie -->
+		<script src="js/croppie.min.js"></script>
 
 		<script type="text/javascript" src="js/main.js"></script>
 
@@ -97,16 +106,14 @@ $conn->close();
 					<p style="font-size: 36px;color:black;text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque interdum rutrum sodales. Nullam mattis fermentum libero, non volutpat.</p>
 				</div>
 			</div>
-		
 
 			<div class="row justify-content-center" style="margin-top: 20%">
 
 				<div class="col-8">
-					<button type="button" formaction='board.php' class="btn btn-info btn-lg btn-xl welcomebtn">Let's get started</button>
+					<a href="front.php" class="btn btn-info btn-lg btn-xl welcomebtn">Let's get started</a>
 				</div>
 
 			</div>
 		</div>
-
 	</body>
 </html>

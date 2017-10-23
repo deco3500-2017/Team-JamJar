@@ -43,7 +43,6 @@ $conn->close();
 		<!-- https://github.com/Foliotek/Croppie -->
 		<link rel="stylesheet" type="text/css" href="css/croppie.css" />
 
-
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
 		<!-- Javascript -->
@@ -106,7 +105,7 @@ $conn->close();
 					<div class="col-3 border menubar">
 						<a href="transaction.php">
 							<i class="material-icons md-96">loop</i>
-							<br><span>Transaction</span>
+							<br><span>Exchange</span>
 						</a>	
 					</div>
 					<div class="col-3 border menubar">

@@ -43,7 +43,6 @@ $conn->close();
 		<!-- https://github.com/Foliotek/Croppie -->
 		<link rel="stylesheet" type="text/css" href="css/croppie.css" />
 
-
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
 		<!-- Javascript -->
@@ -77,7 +76,7 @@ $conn->close();
 						<p class="title">Transaction</p>
 					</div>
 					<div class="col-2">
-						<input type="button" name="post" value="Post" class="btn btn-info btn-lg postrbtn"/>
+						<a href="postr.php" class="btn btn-info btn-lg postrbtn">post</a>
 					</div>
 				</div>
 			</div>
@@ -103,16 +102,15 @@ $conn->close();
 								</div>
 								<div class='col-6 mt-5 innerboxblue rounded cardfont'>
 									<h4 class='ml-3 my-3'>request to ".$userRow['sort']."</h4>
-									
-
 								</div>
 							</div>
 							<div class='row justify-content-end'>
-								<div class='col-4 time mr-2'>
+								<div class='col-12 time mr-2' style='text-align: right;'>
 									visible to ".$userRow['groups']."
 								</div>
 							</div>
 						</div>
+						
 						<div id='detail' style='display: none'>
 							<div class='row mt-5 justify-content-center' >
 								<div class='col-10 innerboxblue rounded cardfont'>
@@ -129,16 +127,13 @@ $conn->close();
 				</div>";
 			}
 		?> 
-			
-
 		</div>
 
 		<!-- footer here -->
 		<footer class="footer">
 			<div class="container-fluid">
+
 				<div class="row">
-
-
 					<div class="col-3 border menubar">
 						<a href="board.php">
 							<i class="material-icons md-96">dvr</i>
@@ -148,7 +143,7 @@ $conn->close();
 					<div class="col-3 border menubar">
 						<a href="transaction.php">
 							<i class="material-icons md-96 menuactive">loop</i>
-							<br><span class="menuactive">Transaction</span>
+							<br><span class="menuactive">Exchange</span>
 						</a>	
 					</div>
 					<div class="col-3 border menubar">
@@ -163,9 +158,7 @@ $conn->close();
 							<br><span>Me</span>
 						</a>	
 					</div>
-					
 				</div>
-
 			</div>
 		</footer>
 	</body>

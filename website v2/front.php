@@ -18,6 +18,9 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" type="text/css" href="css/material_icons.css">
 		<!-- example: <i class="material-icons md-48">name</i> -->
+		
+		<!-- https://github.com/Foliotek/Croppie -->
+		<link rel="stylesheet" type="text/css" href="css/croppie.css" />
 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -30,9 +33,14 @@
 
 		<!-- bootstrap https://getbootstrap.com/ -->
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		
+		<!-- http://gsgd.co.uk/sandbox/jquery/easing/ -->
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		
+		<!-- https://github.com/Foliotek/Croppie -->
+		<script src="js/croppie.min.js"></script>
 
 		<script type="text/javascript" src="js/main.js"></script>
-
 	</head>
 	<body class="pureYellow">
 		<!-- header here -->
@@ -48,9 +56,8 @@
 			</div>
 			<div class="row justify-content-center login">
 				<div class="col-8">
-					<button type="button" formaction='register.php' class="btn btn-info btn-lg btn-xl loginbtn" style="margin-top: 10%;">I am a new user</button>
-
-					<button type="button" formaction='login.php' class="btn btn-info btn-lg btn-xl registerbtn" style="margin-top: 20%;">I have an account</button>
+					<a href="login.php" class="btn btn-info btn-lg btn-xl loginbtn" style="margin-top: 10%;">I have an account</a>
+					<a href="register.php" class="btn btn-secondary btn-lg btn-xl registerbtn" style="margin-top: 20%;">I am a new user</a>
 				</div>
 			</div>
 		</div>

@@ -57,7 +57,6 @@ $conn->close();
 		<!-- https://github.com/Foliotek/Croppie -->
 		<link rel="stylesheet" type="text/css" href="css/croppie.css" />
 
-
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
 		<!-- Javascript -->
@@ -85,7 +84,7 @@ $conn->close();
 			<div class="container-fluid">
 				<div class="row justify-content-center">
 					<div class="col-2">
-					<a href="transaction.php"><i class="material-icons md-96">keyboard_arrow_left</i></a>
+						<a href="transaction.php"><i class="material-icons md-96">keyboard_arrow_left</i></a>
 					</div>
 					<div class="col col-8">
 						<p class="title">New Request</p>
@@ -136,7 +135,7 @@ $conn->close();
 						</div>
 					</div>
 					<div class="col-8">
-						<input type="submit" name="comfirm" value="submit" class="btn btn-info btn-lg" style="width:100%;padding: 3% 0 3% 0; font-size: 36px"/>
+						<input type="submit" name="comfirm" value="Submit" class="btn btn-info btn-lg" style="width:100%;padding: 3% 0 3% 0; font-size: 36px"/>
 					</div>
 
 				</div>	
@@ -159,7 +158,7 @@ $conn->close();
 					<div class="col-3 border menubar">
 						<a href="transaction.php">
 							<i class="material-icons md-96 menuactive">loop</i>
-							<br><span class="menuactive">Transaction</span>
+							<br><span class="menuactive">Exchange</span>
 						</a>	
 					</div>
 					<div class="col-3 border menubar">

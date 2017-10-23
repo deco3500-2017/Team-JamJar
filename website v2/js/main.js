@@ -15,36 +15,6 @@ $(document).ready(function(){
 
     $(".login").css("padding-top", getPageHeight/10);
 
-    $(".postmbtn").on("click",function(){
-    	//console.log("click");
-        window.location.href = "postm.html";
-    });
-
-    $(".postrbtn").on("click",function(){
-    	//console.log("click");
-        window.location.href = "postr.html";
-    });
-
-    $(".welcomebtn").on("click",function(){
-    	//console.log("click");
-        window.location.href = "front.html";
-    });
-
-    $(".loginbtn").on("click",function(){
-    	//console.log("click");
-        window.location.href = "login.html";
-    });
-    
-    $(".registerbtn").on("click",function(){
-    	//console.log("click");
-        window.location.href = "register.html";
-    });
-
-    $(".logoutbtn").on("click",function(){
-    	//console.log("click");
-        window.location.href = "index.html";
-    });
-
     $("div#card").on("click",function(){
     	$(this).next("div#detail").slideToggle();
 	});
@@ -125,6 +95,8 @@ $(document).ready(function(){
 	    });
     });
 
+
+/*	use croppie to crop image
 	$uploadCrop = $('.picitem').croppie({
 	    enableExif: true,
 	    viewport: {
@@ -164,6 +136,7 @@ $(document).ready(function(){
 	$("#imgInp").change(function(){
 	    readURL(this);
 	});
+*/
 
  /* run camera
    	// reference https://davidwalsh.name/browser-camera

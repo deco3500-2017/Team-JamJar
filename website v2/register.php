@@ -1,12 +1,12 @@
 <?php
 ini_set('display_errors', 1);
 session_start();
-if (isset($_SESSION['userSession'])!="") {
- header("Location: board.php");
-}
+//if (isset($_SESSION['userSession'])!="") {
+// header("Location: board.php");
+//}
 require_once 'dbconnect.php';
 
-if(isset($_POST['submit1'])) {
+if(isset($_POST['submit'])) {
  
  $uname = $_POST['username'];
  $email = $_POST['email'];
@@ -76,7 +76,6 @@ if(isset($_POST['submit1'])) {
 		<!-- https://github.com/Foliotek/Croppie -->
 		<link rel="stylesheet" type="text/css" href="css/croppie.css" />
 
-
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
 		<!-- Javascript -->
@@ -92,8 +91,8 @@ if(isset($_POST['submit1'])) {
 		<!-- http://gsgd.co.uk/sandbox/jquery/easing/ -->
 		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 		
-		<!-- https://github.com/Foliotek/Croppie 
-		<script src="js/croppie.min.js"></script> -->
+		<!-- https://github.com/Foliotek/Croppie -->
+		<script src="js/croppie.min.js"></script>
 
 		<script type="text/javascript" src="js/main.js"></script>
 
@@ -112,13 +111,12 @@ if(isset($_POST['submit1'])) {
 			</div>
 		</header>
 
-
 		<!-- content here -->
 		<div class="container-fluid content">
 
 			<div class="row">
 				<div class="col-12">
-					<form  method = 'post'>
+					<form  id="msform" method = 'post'>
 						<!-- progressbar -->
 						<h1> Steps: </h1>
 						<ul id="progressbar">
@@ -160,7 +158,7 @@ if(isset($_POST['submit1'])) {
 							<div class="row mt-5">
 								<div class="col-12">
 									<div class="form-group">
-										<label for="inputPassword" style="font-size: 32px;">What is your email address?</label>
+										<label for="inputPassword" style="font-size: 32px;">Set a password</label>
 										<input type="password" id="inputPassword" class="form-control input-lg" placeholder="Password" name = 'password' required="">
 									</div>
 								</div>
@@ -171,8 +169,8 @@ if(isset($_POST['submit1'])) {
 								</div>
 							</div>
 							<div class="row mt-5 justify-content-center">
-								<div>
-									<a href="login.html" style="font-size: 36px;color:black;text-align: center;">I have an account</a>
+								<div class="col-12" style="text-align: center;">
+									<a href="login.php" style="font-size: 36px;color:black;">I have an account</a>
 								</div>
 							</div>
 						</fieldset>
@@ -232,8 +230,6 @@ if(isset($_POST['submit1'])) {
 							<div class="row mt-5">
 								<div class="col-12">
 									<p style="font-size: 32px; font-weight: bold;">Please identify yourself to get the full access to the resources shared in your community.</p>
-
-
 								</div>
 							</div>
 							<div class="row my-5">
@@ -243,7 +239,6 @@ if(isset($_POST['submit1'])) {
 										<input type="text" id="identify" class="form-control input-lg" placeholder="" />
 									</div>
 								</div>
-
 							</div>
 
 							<div class="row" style="margin-top: 10%; margin-bottom: 10%;">
@@ -259,23 +254,20 @@ if(isset($_POST['submit1'])) {
 										<input type="button" id="takephoto" value="Take a photo" name="take a phtot" class="form-control btn btn-lg btn-warning btn-block btn-xl" style="padding: 2% 0 2% 0; color: white" />
 									</div>
 								</div>
-
 							</div>
-
-
 
 							<div class="row" style="margin-top: 10%">
 								<div class="col-6">
 									<input type="button" name="previous" class="previous btn btn-lg btn-secondary btn-block btn-xl" value="Previous" />
 								</div>
 								<div class="col-6">
-									<input  type="submit" name = 'submit' class="btn btn-lg btn-primary btn-block btn-xl" value="Submit" />
-									<input  type="submit" name = 'submit1'  />
+									<input type="submit" name ="submit" value="Confirm"  class="btn btn-lg btn-primary btn-block btn-xl" />
 								</div>
 							</div>
+
 							<div class="row mt-5 justify-content-center">
 								<div>
-									<input type="submit" value="Skip the Authentication" name="submit" style="font-size: 36px;color:black;text-align: center;color: grey">
+									<input type="submit" name="submit" value="Skip the Authentication" style="font-size: 36px;color:black;text-align: center;color: grey">
 								</div>
 							</div>
 					  	</fieldset>
@@ -283,9 +275,5 @@ if(isset($_POST['submit1'])) {
 				</div>
 			</div>
 		</div>
-
-
-
-
 	</body>
 </html>

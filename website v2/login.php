@@ -47,6 +47,9 @@ if (isset($_POST['submit'])) {
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" type="text/css" href="css/material_icons.css">
 		<!-- example: <i class="material-icons md-48">name</i> -->
+		
+		<!-- https://github.com/Foliotek/Croppie -->
+		<link rel="stylesheet" type="text/css" href="css/croppie.css" />
 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -59,6 +62,12 @@ if (isset($_POST['submit'])) {
 
 		<!-- bootstrap https://getbootstrap.com/ -->
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		
+		<!-- http://gsgd.co.uk/sandbox/jquery/easing/ -->
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		
+		<!-- https://github.com/Foliotek/Croppie -->
+		<script src="js/croppie.min.js"></script>
 
 		<script type="text/javascript" src="js/main.js"></script>
 
@@ -95,8 +104,8 @@ if (isset($_POST['submit'])) {
 						<button class="btn btn-lg btn-primary btn-block btn-xl" type="submit" name = 'submit'>Sign in</button>
 					</form>
 				</div>
-				<div class="col-4 mt-5">
-						<a  href="register.php" style="font-size: 36px;color:black;text-align: center;">I am a new user</a>
+				<div class="col-12 mt-5" style="text-align: center;">
+						<a href="register.php" style="font-size: 36px;color:black;">I am a new user</a>
 				</div>
 			</div>
 		</div>

@@ -57,7 +57,7 @@
 
 	a {
 		text-decoration: none;
-		color: #d8d8d8;
+		color: grey;
 	}
 
 	a:hover {
@@ -117,7 +117,6 @@
 		width: 100%;
 		border-radius: 10px;
 	}
-
 
 	select {
 		font-size: 36px;

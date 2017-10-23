@@ -115,6 +115,11 @@ $(document).ready(function(){
   	});
 
 
+  	$('#buildingmanager').change(function(){
+    	$('#identify').attr('disabled', $(this).is(':checked') );
+	});
+
+
 /*	use croppie to crop image
 	$uploadCrop = $('.picitem').croppie({
 	    enableExif: true,

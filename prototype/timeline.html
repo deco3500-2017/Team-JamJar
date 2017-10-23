@@ -22,7 +22,6 @@
 		<!-- https://github.com/Foliotek/Croppie -->
 		<link rel="stylesheet" type="text/css" href="css/croppie.css" />
 
-
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
 		<!-- Javascript -->
@@ -48,61 +47,56 @@
 		<!-- header here -->
 		<header class="header">
 			<div class="container-fluid">
-				<div class="row justify-content-center">
+				<div class="row justify-content-md-center">
 					<div class="col-2">
-					<a href="board.html"><i class="material-icons md-96">keyboard_arrow_left</i></a>
+						<a href="profile.html"><i class="material-icons md-96">keyboard_arrow_left</i></a>
 					</div>
 					<div class="col col-8">
-						<p class="title">New Post</p>
+						<p class="title">Profile</p>
 					</div>
 					<div class="col-2">
+						<a href="#"><i class="material-icons md-96">settings</i></a>
 					</div>
 				</div>
 			</div>
 		</header>
-		
+
 		<!-- content here -->
 		<div class="container-fluid content">
 
-			<form class="message">
-				<div class="row mx-3 my-5 justify-content-center">
-					<div class="col-8 my-5">
-						<h1 class="my-3">Description</h1>
-						<textarea rows="7" maxlength="140" placeholder="140 characters limited"></textarea>
-					</div>
+<!-- https://bootsnipp.com/snippets/featured/timeline-responsive -->
+<div class="page-header">
+	<h1 id="timeline">Timeline</h1>
+</div>
+<ul class="timeline">
+	<li>
+		<div class="timeline-badge"><i class="material-icons">loop</i></div>
+		<div class="timeline-panel">
+			<div class="timeline-heading">
+				<h4 class="timeline-title">Request</h4>
+				<p><small class="text-muted"><i class="material-icons">alarm</i> 11 hours ago</small></p>
+			</div>
+			<div class="timeline-body">
+				<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+			</div>
+		</div>
+	</li>
+	
+	<li class="timeline-inverted">
+		<div class="timeline-badge warning"><i class="material-icons">dvr</i></div>
+		<div class="timeline-panel">
+			<div class="timeline-heading">
+				<h4 class="timeline-title">Notification</h4>
+				<p><small class="text-muted"><i class="material-icons">alarm</i> 11 hours ago</small></p>
+			</div>
+			<div class="timeline-body">
+				<p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+			</div>
+		</div>
+	</li>
 
-					<div class="col-8 my-5">
-						<h1 class="my-3">Sort</h1>
-						<div class="input-group">
-							<select>
-								<option selected>choose...</option>
-								<option value="1">Maintaining</option>
-								<option value="2">Letters</option>
-								<option value="3">Discount nearby</option>
-								<option value="4">Missing items</option>
-								<option value="5">Others</option>
-							</select>
-						</div>
-					</div>
 
-					<div class="col-8 my-5">
-						<h1 class="my-3">Urgency</h1>
-						<div class="input-group">
-							<select>
-								<option selected>choose...</option>
-								<option value="6">High</option>
-								<option value="7">Normal</option>
-								<option value="8">Low</option>
-							</select>
-						</div>
-					</div>
-					<div class="col-8">
-						<input type="submit" name="comfirm" value="Submit" class="btn btn-info btn-lg" style="width:100%;padding: 3% 0 3% 0; font-size: 36px"/>
-					</div>
-				</div>
-					
-			</form>
-
+</ul>
 		</div>
 
 		<!-- footer here -->
@@ -113,8 +107,8 @@
 
 					<div class="col-3 border menubar">
 						<a href="board.html">
-							<i class="material-icons md-96 menuactive">dvr</i>
-							<br><span class="menuactive">Board</span>
+							<i class="material-icons md-96">dvr</i>
+							<br><span>Board</span>
 						</a>
 					</div>
 					<div class="col-3 border menubar">
@@ -131,13 +125,11 @@
 					</div>
 					<div class="col-3 border menubar">
 						<a href="profile.html">
-							<i class="material-icons md-96">person</i>
-							<br><span>Me</span>
+							<i class="material-icons md-96 menuactive">person</i>
+							<br><span  class="menuactive">Me</span>
 						</a>	
-					</div>
-					
+					</div>	
 				</div>
-
 			</div>
 		</footer>
 	</body>

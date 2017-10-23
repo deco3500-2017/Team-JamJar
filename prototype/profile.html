@@ -22,7 +22,6 @@
 		<!-- https://github.com/Foliotek/Croppie -->
 		<link rel="stylesheet" type="text/css" href="css/croppie.css" />
 
-
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 
 		<!-- Javascript -->
@@ -56,33 +55,38 @@
 						<p class="title">Profile</p>
 					</div>
 					<div class="col-2">
+						<a href="#"><i class="material-icons md-96">settings</i></a>
 					</div>
 				</div>
 			</div>
 		</header>
-		<div class="container-fluid">
+		<div class="container-fluid content">
 			
-
-			<div class="row justify-content-center" style="position: absolute;">
+<!-- background image fixed-->
+			<div class="col-12" style="position: absolute;overflow: hidden;height:350px">
 				<div class="col-12">
-					<img class="img-fluid w-100" src="images/customized.jpg" alt="back">
+					<img class="img w-100" src="images/customized.jpg" alt="back" >
 				</div>
 			</div>
-			
-			<div class="row">
-				<img src="images/test.jpg" alt="user image"  style="z-index: 999999;">
+<!-- other stuff -->
+			<div class="row justify-content-center" style="margin-top: 200px">
+				<img class="figure-img img-fluid rounded-circle" src="images/test.jpg" alt="user image"  style="z-index: 0;border: 10px solid white;">
 			</div>
 
 			<div class="row">
-
-			
+				<div class="col-12" style="text-align: center;">
+					<h1>name</h1>
+					<p style="font-size: 24px">Interaction Designer of the Share Town</p>
+				</div>
 			</div>
 
-			<div class="row">
-				<div class="col-4">
+			<div class="row justify-content-center mt-5">
+				<div class="col-4 border border-left-0 p-5">
+					<a href="#"> <h1>edit profile</h1> </a>
 					
 				</div>
-				<div class="col-4">
+				<div class="col-4 border border-right-0 p-5" style="text-align: right">
+					<a href="timeline.html"> <h1>activity log</h1> </a>
 				</div>
 
 			</div>
@@ -112,7 +116,7 @@
 					<div class="col-3 border menubar">
 						<a href="transaction.html">
 							<i class="material-icons md-96">loop</i>
-							<br><span>Transaction</span>
+							<br><span>Exchange</span>
 						</a>	
 					</div>
 					<div class="col-3 border menubar">
@@ -126,10 +130,8 @@
 							<i class="material-icons md-96 menuactive">person</i>
 							<br><span  class="menuactive">Me</span>
 						</a>	
-					</div>
-					
+					</div>	
 				</div>
-
 			</div>
 		</footer>
 	</body>

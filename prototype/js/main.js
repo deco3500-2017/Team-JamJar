@@ -15,36 +15,6 @@ $(document).ready(function(){
 
     $(".login").css("padding-top", getPageHeight/10);
 
-    $(".postmbtn").on("click",function(){
-    	//console.log("click");
-        window.location.href = "postm.html";
-    });
-
-    $(".postrbtn").on("click",function(){
-    	//console.log("click");
-        window.location.href = "postr.html";
-    });
-
-    $(".welcomebtn").on("click",function(){
-    	//console.log("click");
-        window.location.href = "front.html";
-    });
-
-    $(".loginbtn").on("click",function(){
-    	//console.log("click");
-        window.location.href = "login.html";
-    });
-    
-    $(".registerbtn").on("click",function(){
-    	//console.log("click");
-        window.location.href = "register.html";
-    });
-
-    $(".logoutbtn").on("click",function(){
-    	//console.log("click");
-        window.location.href = "index.html";
-    });
-
     $("div#card").on("click",function(){
     	$(this).next("div#detail").slideToggle();
 	});
@@ -124,6 +94,25 @@ $(document).ready(function(){
 		    easing: 'easeInOutBack'
 	    });
     });
+
+
+  	$('#textinput').keyup(function(){
+  		var searchTerm = $(this).val().toUpperCase();
+  		//console.log(searchTerm);
+  		var list = $('.listofuser');
+  		//console.log(list);
+
+		$(list).find('p').each(function () {
+		    var name = $(this).text();
+		    console.log(name);
+
+		    if (name.toUpperCase().indexOf(searchTerm) > -1) {
+       		    $(this).parent().parent().css("display", "");
+        	} else {
+            	$(this).parent().parent().css("display", "none");
+       		}
+		});
+  	});
 
 
 /*	use croppie to crop image

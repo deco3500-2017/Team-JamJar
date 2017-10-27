@@ -11,6 +11,9 @@
 
 <a href = https://deco3801-hearing101.uqcloud.net/deco3500/website2/>Our Prototype link : https://deco3801-hearing101.uqcloud.net/deco3500/website2/</a>
 <p>Please zoom out to 25% on your broswer to check the website</p>
+<br/>
+<a href = https://deco3801-hearing101.uqcloud.net/deco3500/website2/boardFull.php> Public Board link : https://deco3801-hearing101.uqcloud.net/deco3500/website2/boardFull.php</a>
+<p>The Public Board will be shown on the big screen in the lobbies</p>
 
 
 <br/><br/><br/>
